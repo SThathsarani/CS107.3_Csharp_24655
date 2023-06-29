@@ -10,13 +10,10 @@ namespace Q3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter a number:");
-            int num1=int.Parse(Console.ReadLine());
+            int num1 = 249;
+            int num2 = 100;
 
-            Console.WriteLine("Enter a number:");
-            int num2=int.Parse(Console.ReadLine());
-
-            Console.WriteLine($"Sum = {num1 +num2}");
+            Console.WriteLine($"Number 01 = {num1}\nNumber 02 = {num2}\nSum = {num1 +num2}");
             Console.ReadLine();
         }
     }
